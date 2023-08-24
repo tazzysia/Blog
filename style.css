@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'pacifico';
+    src:url('font/Pacifico-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('font/Roboto-Medium.ttf');
+}
+body{
+    background-color: black;
+}
+.nav-bar{
+   background-color: black;
+   height: 78px;
+}
+.nav-bar .logo {
+    margin-left: 230px;
+    font-size: 50px;
+    font-family: 'pacifico';
+    color:pink;
+    text-decoration: none;
+    
+}
+.nav-bar button{
+    color: palevioletred;
+    margin-top: 23px;
+    border-color: palevioletred;
+}
+.nav-bar .btn1 button{
+    margin-left: 135px;
+}
+.nav-bar .btn2 button{
+    margin-left: 0px;
+}
+.nav-bar button:hover{
+   background-color: palevioletred;
+   border-color: palevioletred;
+   color: pink;
+}
+.home img{
+    opacity: 0.3;
+}
+.quote{
+    position: absolute;
+    top: 450px;
+    right: 250px;
+}
+.quote .home-heading{
+    font-size: 58px;
+    color: palevioletred;
+}
+.quote .home-bottom{
+    font-size: 48px;
+    color: palevioletred;
+}
+.home button a{
+    color: pink;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.home button{
+    margin-top: 20px;
+    width: 65%;
+    background-color: palevioletred;
+    border-radius: 50px;
+    border-color: palevioletred;
+}
+.home button :hover {
+    background-color: palevioletred;
+    color: black;
+}
+.explore h2{
+    font-size: 45px;
+    margin-top: 20px;
+    color: pink;
+    font-family: 'pacifico';
+}
+.card{
+    margin-top: 50px;
+    background-color: pink;
+    height: 430px;
+    font-family:'Roboto';
+    margin-left: 50px;
+}
+.card-body button{
+    margin-left: 155px;
+    width: 40%;
+    background-color: palevioletred;
+    border-color: palevioletred;
+    border-radius: 20px;
+}
+.card-body button a{
+    text-decoration: none;
+    color: pink;
+}
+.card-body button:hover{
+    background-color: black;
+    border-color: black;
+}
+.about-us{
+    background-color: palevioletred;
+    margin-top: 60px;
+    height: 450px;
+}
+.about-us img{
+    margin-top:-141px;
+    margin-left:-225px ;
+}
+.about-us h3 {
+    margin-top: 43px;
+    font-family: 'Roboto-Regular.ttf';
+    font-size: 45px;
+    margin-left: 90px;
+}
+.about-us p{
+    font-size:19px ;
+    margin-top: 15px;
+    font-family: 'Roboto-Regular.ttf';
+    margin-left: 90px;
+    
+}
+.footer-one{
+    margin-top: 0px;
+    background-color: pink;
+    height: 130px;
+}
+.footer-one h4{
+    color: black;
+    font-size: 25px;
+    font-family: 'Roboto-Regular.ttf' ;
+    margin-top: 30px;
+}
+.footer-one h5{
+    color: black;
+    font-size: 23px;
+    font-family: 'Roboto-Regular.ttf' ;
+    margin-left: 70px;
+}
+.footer-one h3{
+    color: black;
+    font-size: 21px;
+    font-family: 'Roboto-Regular.ttf' ;
+    margin-top: 35px;
+    margin-left: 69px;
+}
+.footer-two {
+    background-color: black;
+}
+.footer-two .end{
+    text-align: center;
+    height: 78px;
+}
+.footer-two a i {
+    margin-top: 13px;
+    margin-left: 10px;
+    color: pink;
+}
+.footer-two .end  a :hover{
+    color: palevioletred;
+}
+.footer-two p{
+    font-size: 18px;
+    font-family: 'Roboto-Regular.tff';
+    color: palevioletred;
+}
+@media( min-width: 1400px)and (max-width:1919px){
+.nav-bar .logo {
+        margin-left: 170px;
+        font-size: 50px;
+        font-family: pacifico;
+        color: pink;
+        text-decoration: none;
+}
+.nav-bar .btn1 button{
+        margin-left: 55px;
+}
+.nav-bar .btn2 button {
+    margin-left: -26px;
+}
+.quote {
+    position: absolute;
+    top: 323px;
+    right: 90px;
+}  
+}
+@media( min-width: 1200px)and (max-width:1399px){
+.nav-bar .logo {
+        margin-left: 130px;
+        font-size: 50px;
+        font-family: 'pacifico';
+        color: pink;
+        text-decoration: none;
+}
+.nav-bar .btn1 button{
+        margin-left: 30px;
+}
+.nav-bar .btn2 button{
+    margin-left: -30px;
+}
+.quote{
+       position: absolute;
+        top: 290px;
+        right: 145px;
+}
+.quote .home-heading {
+    font-size: 45px;
+    color: palevioletred;
+}
+.quote .home-bottom {
+    font-size: 43px;
+    color: palevioletred;
+}
+.home button {
+    margin-top: 6px;
+    width: 65%;
+    background-color: palevioletred;
+    border-radius: 50px;
+    border-color: palevioletred;
+}
+.about-us img {
+    margin-top: -90px;
+    margin-left: -163px;
+}
+.about-us h3 {
+    margin-top: 40px;
+    font-family: "Roboto-Regular.ttf";
+    font-size: 43px;
+    margin-left: 60px;
+}
+.about-us p {
+    font-size: 17px;
+    margin-top: 15px;
+    font-family: 'Roboto-Regular.ttf';
+    margin-left: 60px;
+}
+.about-us {
+    background-color: palevioletred;
+    margin-top: 60px;
+    height: 380px;
+}
+.footer-one {
+    margin-top: 0px;
+    background-color: pink;
+    height: 100px;
+}
+.footer-one h4 {
+    color: black;
+    font-size: 22px;
+    font-family: 'Roboto-Regular.ttf';
+    margin-top: 18px;
+}
+.footer-one h5{
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto-Regular.ttf' ;
+    margin-left: 70px;
+}
+.footer-one h3 {
+    color: black;
+    font-size: 19px;
+    font-family: 'Roboto-Regular.ttf';
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.footer-two p{
+    font-size: 16px;
+    font-family: 'Roboto-Regular.tff';
+    color: palevioletred;
+}
+}
