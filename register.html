@@ -6,7 +6,7 @@
     <title>Blog</title>
     <style>
        
-body{
+       body{
     background-color: black;
 }
 fieldset{
@@ -14,7 +14,7 @@ fieldset{
     border-color: pink;
     width: 30%;
     margin-top: 150px;
-    margin-left: 350px;
+    margin-left: 650px;
 }
 .form{
   margin-left: 150px;
@@ -26,7 +26,6 @@ fieldset{
 
 }
 .form-control p{
-
     margin-left: -78px;
     font-size: 20px;
 }
@@ -35,20 +34,21 @@ fieldset{
     padding: 10px 50px;
     text-align: center;
     color: pink;
-    border: 2px solid palevioletred;
+    border: 2px solid pink;
     background-color: black;
-
 }
 .form-control.success input{
-    border:2px solid rgb(26, 167, 26);
+    border: 3px solid palevioletred;
 }
 .form-control.error input{
-    border:2px solid rgb(228, 29, 22);
+    border: 2px solid orchid;
 }
 .form-control small{
     display: block;
-    margin-left: 200px;
+    margin-left: 230px;
+    margin-top: 10px;
     visibility: hidden;
+    color: orchid;
 }
 button{
     background-color: palevioletred;
@@ -65,7 +65,24 @@ button:hover{
     background-color: pink;
     border-color: pink;
 }
-
+@media(min-width: 1400px) and (max-width:1919px){
+    fieldset{
+    color: palevioletred;
+    border-color: pink;
+    width: 40%;
+    margin-top: 95px;
+    margin-left: 427px;
+}
+}
+@media(min-width: 1200px) and (max-width:1399px){
+    fieldset {
+    color: palevioletred;
+    border-color: pink;
+    width: 50%;
+    margin-top: 95px;
+    margin-left: 310px;
+}
+}
     </style>
 </head>
 <body>
